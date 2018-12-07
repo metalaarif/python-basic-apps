@@ -19,7 +19,7 @@ def get_html_for_location(name):
     url = "http://www.wunderground.com/weather-forecast/{}".format(name)
     response = requests.get(url)
 
-    return response.texta
+    return response.text
 
 def get_weather_from_html(html):
     soup = bs4.BeautifulSoup(html, "html.parser")
