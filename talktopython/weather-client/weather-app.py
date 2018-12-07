@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import requests
 import bs4
-import collections
 
 def main():
     header()
